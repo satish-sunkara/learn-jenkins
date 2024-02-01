@@ -22,6 +22,8 @@ pipeline {
                 echo 'Deploying....'
             }
         }
+    
+    }
     // after build execution post is used check the status of execution 
     post { 
         always { 
@@ -34,8 +36,6 @@ pipeline {
             echo 'The jenkins script is passed successfully'
         }
         
-    }
-    
     }
 }
 
