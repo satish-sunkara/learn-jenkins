@@ -50,6 +50,7 @@ pipeline {
             }
     
         }
+    }
     // after build execution post is used check the status of execution 
     post { 
         always { 
